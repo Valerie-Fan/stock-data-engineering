@@ -1,6 +1,6 @@
 
 # Stock Data Engineering Pipeline
-This repository demonstrates how to analyze real-time stock market data using Apache Kafka and Amazon Web Serveces. 
+This repository demonstrates how to upload real-time data to Amazon S3 using Apache Kafka. 
 
 ## Architecture
 ![Architecture](https://github.com/Valerie-Fan/stock-data-engineering/assets/164007751/d8051490-f04a-410d-b1c3-0727cddf0018)

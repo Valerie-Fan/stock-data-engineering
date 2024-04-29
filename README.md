@@ -94,3 +94,11 @@ bin/kafka-console-producer.sh --topic stock-info --bootstrap-server <your_public
 bin/kafka-console-consumer.sh --topic stock-info --bootstrap-server <your_public_IPv4_address>:9092
 ```
 * Up for now, we should have 4 terminal running: zookeeper, kafka, producer, and consumer
+
+## Uploading Stock Data to AWS S3
+* Practically, you should have some real-time stock index API to load stock information to producer, but they are mostly not free. So here we demontrate the workflow by genarated data stored in indexProcessed.csv
+* After running kafka_producer.ipynb and kafka_consumer.ipynb, you should have stock information stored in your S3 bucket.
+
+## Usage
+* After loading the data to S3 bucket, you could use Amazon Web Serces such as Glue, Athena and QuickSight to analyze the data.
+* You could also do ETL process using DBT and Airflow before uploading it to S3.

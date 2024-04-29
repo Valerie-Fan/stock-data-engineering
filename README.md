@@ -7,7 +7,7 @@ This repository demonstrates how to analyze real-time stock market data using Ap
 ## Prerequisites
 * Python Environment and basic python knowledge
 * An Amazon Web Serveces account
-* Basic Knowledge of AWS such as IAM and running EC2 instances
+* Basic Knowledge of AWS such as IAM and running EC2 instances<br>
 The purpose of this repository is not for learning Python or AWS, but personal note-taking and practicing data pipelines, so I would assume readers of this repo have basic knowledge of those tools.
 
 ## Setup

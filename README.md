@@ -104,4 +104,4 @@ bin/kafka-console-consumer.sh --topic stock-info --bootstrap-server <your_public
 * You could also do ETL process using DBT and Airflow before uploading it to S3.
 
 ## Acknowledgements
-* Thank Darshil for his repo and a helpful tutorial on how to launch Kafka on AWS EC2, I have learned a lot and gained much knowledge about real-time data processing from his courses and [![Youtube Channel]([https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/](https://www.youtube.com/watch?v=KerNf0NANMo&t=1643s)).
+* Thank Darshil for his repo and a helpful tutorial on how to launch Kafka on AWS EC2, I have learned a lot and gained much knowledge about real-time data processing from his courses and [Youtube Channel](https://www.youtube.com/watch?v=KerNf0NANMo&t=1643s).

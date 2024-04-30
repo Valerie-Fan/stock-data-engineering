@@ -1,5 +1,5 @@
 
-# Stock Data Engineering Pipeline
+# Stock Market Data Pipeline
 This repository demonstrates how to upload real-time data to Amazon S3 using Apache Kafka. 
 
 ## Architecture
